@@ -9,7 +9,7 @@ import PlayAgain from '../functional/PlayAgain'
 
 import io from 'socket.io-client'
 import qs from 'qs'
-const ENDPOINT = 'http://localhost:3000'
+const ENDPOINT = 'http://35.180.234.30:3000'
 
 class Board extends Component {
   constructor(props){
