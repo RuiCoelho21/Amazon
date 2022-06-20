@@ -9,7 +9,7 @@ import logo from './logo.png'
 import {Navigate} from 'react-router-dom'
 
 import socketIOClient from 'socket.io-client'
-const ENDPOINT = 'http://localhost:3000'
+const ENDPOINT = 'http://35.180.234.30:3000'
 
 class Start extends React.Component {
     constructor(props){
